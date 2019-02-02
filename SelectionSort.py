@@ -22,8 +22,8 @@ def FindSmallest(array):
 def SelectionSort(array):
 	ordered = []
 	for i in range(len(array)):
-		small = FindSmallest(array)
-		ordered.append(array.pop(small))
+		small_index = FindSmallest(array)
+		ordered.append(array.pop(small_index))
 	return ordered
 
 test = [11, 2, 5, 7, 10, 1, 0]
