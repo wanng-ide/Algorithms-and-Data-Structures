@@ -7,7 +7,7 @@ Created on Sun Feb  3 01:00:53 2019
 SelectionSort
 
 O(n^2)
-find the smallest # and recursion
+find the smallest #, and pop it, then find the smallest in the rest
 """
 
 def FindSmallest(array):
